@@ -1,0 +1,22 @@
+{
+  "name": "whatsapp-bot",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "tunnel": "ngrok http 3030 --region=ap"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.3",
+    "express": "~4.16.1",
+    "graphql-request": "^5.0.0",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "ngrok": "^4.3.3",
+    "node-fetch": "^2.6.7",
+    "twilio": "^3.82.1"
+  }
+}
